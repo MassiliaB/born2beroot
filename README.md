@@ -13,9 +13,12 @@ https://www.techrepublic.com/article/how-to-install-a-minimal-server-based-on-de
 
 **Step 2 : install and configure sudo**
 
-- For configuration, edit `/etc/sudoers` or `sudo visudo`
+- For configuration, edit `/etc/sudoers` with `sudo visudo`
 
 https://blog.eldernode.com/sudoers-configurations-setting-sudo/
+
+![sudo](https://user-images.githubusercontent.com/62947287/130630092-eb24df5e-14a8-485c-8f7f-72c99bbf3ea5.png)
+
 
 **Step 3 : adding a user to the sudo and user42 group**
 
