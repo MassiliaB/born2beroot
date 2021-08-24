@@ -1,5 +1,5 @@
 # born2beroot
-This project aims to introduce you to the world of virtualization. 
+(42 project) This project aims to introduce you to the world of virtualization. 
 You have to creat a virtual machine using VirtualBox (or UTM) and be able to install your own operating system implementing strict rules.
 
    **Goal :**
@@ -29,6 +29,9 @@ https://blog.eldernode.com/sudoers-configurations-setting-sudo/
 - For configuration, edit `/etc/pam.d/common-password`
  
 https://www.systutorials.com/docs/linux/man/8-pam_pwquality/
+
+![password_policy](https://user-images.githubusercontent.com/62947287/130629302-d4941596-f822-4898-b648-292e858bb150.png)
+
 - For aging control, edit `/etc/login.defs` or `sudo chage -option <user>`
 - Display password configuration of a user `chage --list <user`
 
