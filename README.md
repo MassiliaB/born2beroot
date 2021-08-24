@@ -14,7 +14,7 @@ https://www.techrepublic.com/article/how-to-install-a-minimal-server-based-on-de
 **Step 2 : install and configure sudo**
 
 - For configuration, edit `/etc/sudoers` or `sudo visudo`
-- 
+
 https://blog.eldernode.com/sudoers-configurations-setting-sudo/
 
 **Step 3 : adding a user to the sudo and user42 group**
@@ -27,7 +27,7 @@ https://blog.eldernode.com/sudoers-configurations-setting-sudo/
 **Step 4 : configure a password policy**
 
 - For configuration, edit `/etc/pam.d/common-password`
-- 
+ 
 https://www.systutorials.com/docs/linux/man/8-pam_pwquality/
 - For aging control, edit `/etc/login.defs` or `sudo chage -option <user>`
 - Display password configuration of a user `chage --list <user`
